@@ -43,5 +43,5 @@
                                &trans   &kp LSHFT  &trans               &trans  &kp RSHIFT  &trans
                         >;
                 };
-        }
+        };
 };
