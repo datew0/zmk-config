@@ -11,6 +11,7 @@
 
 #define LOWER 1
 #define RAISE 2
+#define ADJUST 3
 
 / {
         keymap {
@@ -42,5 +43,5 @@
                                &trans   &kp LSHFT  &trans               &trans  &kp RSHIFT  &trans
                         >;
                 };
-        };
+        }
 };
