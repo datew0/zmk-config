@@ -20,9 +20,10 @@
         macros {
                 sticky_gui: sticky_gui {
                 compatible = "zmk,behavior-macro";
+                label = "ZM_STICKY_GUI";
+                #binding-cells = <0>;
                 bindings
-                        = <&macro_press &sk LGUI>
-                        ;
+                        = <&macro_tap &sk LGUI>;
                 };
         };
         keymap {
