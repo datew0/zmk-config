@@ -22,9 +22,12 @@
                 compatible = "zmk,behavior-macro";
                 label = "ZM_STICKY_GUI";
                 #binding-cells = <0>;
+                wait-ms = <10>;
                 bindings
-                        = <&macro_tap_time 1000>
-                        , <&macro_tap &kp LGUI>;
+                        = <&kp F &kp A &kp S &kp T>
+                        , <&macro_wait_time 500>
+                        , <&kp S &kp L &kp O &kp W>
+                        ;
                 };
         };
         keymap {
