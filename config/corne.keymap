@@ -23,7 +23,8 @@
                 label = "ZM_STICKY_GUI";
                 #binding-cells = <0>;
                 bindings
-                        = <&macro_tap &kp LGUI>;
+                        = <&macro_tap_time 1000>
+                        , <&macro_tap &kp LGUI>;
                 };
         };
         keymap {
