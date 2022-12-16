@@ -22,6 +22,21 @@
     quick_tap_ms = <220>;
 };
 
+chosen {
+      zmk,battery = &vbatt;
+    };
+
+/ {
+    chosen {
+      zmk,battery = &vbatt;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "VBATT";
+    };
+}
+
 / {
     macros {
         numdot: numdot {
